@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7be8768886.js" crossorigin="anonymous"></script>
+    <title>Alexandra portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Alexandra</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="iconwhite.png" class="icon" onclick="closemenu()"></img>
+                </ul>
+                <label for="checkbox_toggle" class="hamburger" onclick="openmenu()">&#9776;</label>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, i'm <span>Alexandra</span></h1>
+                <h2>I am a Fullstack Web developer and Freelancer in Nigeria</h2>
+            </div>
+        </div>
+    </div>
+    <!------ABOUT-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_20220819_191710_671.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a web-developer, i have specialized set of skills and knowledge that allows me to create and maintain websites and web applications. My proficiency in programming languages such as HTML, CSS, and JavaScript, as well as your understanding of web development frameworks and tools, enables me to create visually appealing and functional web pages that meet the needs of my clients.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Front-End Design of Responsive sites</li>
+                            <li><span>Full Stack Development</span><br>E-Commerce website, Web application, Blogging website</li>
+                            <li><span>Project Management</span><br>Android/IOS application Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Adobe, Figma, React.js, SaSS</li>
+                            <li><span>Full Stack Development</span><br>HTML/HTML5, CSS/CSS3/SaSS, JAVASCRIPT, React.js</li>
+                            <li><span>Project Management</span><br>Github, Figma, MENU with OpenAI ChatGPT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----SERVICES-------->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius ducimus numquam dolorum iure modi quod, aliquid distinctio quam </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius ducimus numquam dolorum iure modi quod, aliquid distinctio quam </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius ducimus numquam dolorum iure modi quod, aliquid distinctio quam </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------portfolio------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="portfolio-img1.jpg" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Connect to talented peaple around the world.Download on playstore</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolio-img2.jpg" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Connect to talented peaple around the world.Download on playstore</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolio-img3.jpg" >
+                <div class="layer">
+                    <h3>Online App</h3>
+                    <p>Connect to talented peaple around the world.Download on playstore</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+</div>
+<!-- ---------Contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>Taiwoalexandra41@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>08090196421</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Web Developer E-WPS Office.docx" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Alexandra 2023</p>
+    </div>
+</div>
+    <script src="javascript.js"></script>
+</body>
+</html>
